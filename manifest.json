@@ -1,17 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Hello World",
+  "description": "first chrome extension",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_popup": "options.html",
-    "default_title": "extension alpha"
-  },
-  "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+    "default_popup": "popup.html"
+  }
 }
